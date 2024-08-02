@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+header > h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #393939;
+}
+
+header > ul > a{
+    text-decoration: none;
+    color: #393939;
+    font-size: 18px;
+}
+
+button{
+    display: flex;
+    background-color: var(--verde-500);
+    border-radius: 30px;
+    padding: 15px;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    gap: 5px;
+
+    transition: 0.3 ease;
+}
+
+header > button:hover{
+    background-color: var(--verde-300);
+}
+
+main > section{
+    display: flex;
+    padding: 50px 200px;
+    background-color: var(--verde-800);
+}
+
+/* main > section > div{
+    width: 50%;
+} */
+
+section > div > h3{
+    background-color: var(--verde-500);
+    padding: 5px 15px;
+    border-radius: 30px;
+    width: 22%;
+    margin-top: 20px;
+
+    color: var(--preto-300);
+}
+
+section > div > h1{
+    font-size: 60px;
+}
+
+section > div > h1 > span{
+    font-size: 100px;
+}
