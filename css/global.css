@@ -1,0 +1,12 @@
+@import url(./style.css);
+
+:root{
+    --verde-1000: #cccc66;
+    --verde-800: #a6bf73;
+    --verde-500: #80b380;
+    --verde-300: #59a68c;
+    --verde-100: #339999;
+
+    --branco-1000: #fff;
+    --preto-300: #393939
+}
