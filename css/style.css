@@ -31,8 +31,7 @@ header > ul > a{
     color: #393939;
     font-size: 18px;
 }
-
-button{
+header > button{
     display: flex;
     background-color: var(--verde-500);
     border-radius: 30px;
@@ -67,7 +66,7 @@ section > div > h3{
     background-color: var(--verde-500);
     padding: 5px 15px;
     border-radius: 30px;
-    width: 22%;
+    width: 31%;
     margin-top: 20px;
 
     color: var(--preto-300);
@@ -107,6 +106,7 @@ main > section > div > button{
     padding-left: 30px;
     border: none;
     margin-top: 30px;
+    color: #fff;
     
     background-color: var(--verde-500);
     cursor: pointer;
@@ -115,6 +115,7 @@ main > section > div > button{
 
 main > section > div > button:hover{
     background-color: var(--verde-300);
+    transform: scale(1.03s);
 }
 
 main > section > div > button > img{
@@ -127,4 +128,65 @@ main > section > div > button > img{
 
 main > section > div > img{
     width: 100%;
+}
+
+main > .container-icon{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-icon > p{
+    font-size: 18px;
+    color: #8b8b8b;
+    margin-top: 60px;
+}
+
+.container-icon > h3{
+    font-size: 28px;
+    font-weight: 450;
+    margin-bottom: 50px;
+}
+
+.container-icon > article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+}
+
+.container-icon > article > div > img{
+    width: 100px;
+    
+}
+
+.container-icon > article > div > p{
+    font-size: 16px;
+    color: #8b8b8b;
+    margin-top: 20px;
+}
+
+.container-icon > article > div > h4{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.container-icon > article > div > button{
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.container-icon > article > div > button:hover{
+    transform: scale(1.03);
 }
